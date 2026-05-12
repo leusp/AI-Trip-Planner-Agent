@@ -3,6 +3,14 @@
 A multi-agent travel planner built with LangGraph, powered by OpenAI GPT-4o-mini,
 and optionally enhanced with Tavily web search and OpenWeatherMap live forecasts.
 
+---
+
+## Example
+<img width="1071" height="902" alt="Screenshot 2026-05-05 at 4 22 58 AM" src="https://github.com/user-attachments/assets/ccc29738-a643-4259-bab2-f41f8a808780" />
+
+
+https://github.com/user-attachments/assets/ed7ee027-a726-4783-8bf2-a0c69bce51fb
+
 
 
 ---
@@ -104,12 +112,14 @@ The app opens at `http://localhost:8501`.
 This project draws from two reference repositories:
 
 **MultiAgents-with-Langgraph-TravelItineraryPlanner**
+[**MultiAgents-with-Langgraph-TravelItineraryPlanner**](https://github.com/vikrambhat2/MultiAgents-with-Langgraph-TravelItineraryPlanner)
+https://github.com/vikrambhat2/MultiAgents-with-Langgraph-TravelItineraryPlanner
 - GraphState TypedDict pattern used in `state.py`
 - LangGraph node function structure used across all agent files
 - Streamlit session-state and `graph.stream` loop used in `app.py`
 - `weather_forecaster`, `packing_list_generator`, `food_culture_recommender`, `chat_agent`, and `fetch_useful_links` adapted into `agents/on_demand.py` (ChatOllama replaced with ChatOpenAI; Serper replaced with Tavily)
 
-**TravelPlanner-CrewAi-Agents-Streamlit**
+[**TravelPlanner-CrewAi-Agents-Streamlit**](https://github.com/AdritPal08/TravelPlanner-CrewAi-Agents-Streamlit)
 - Agent role and goal wording used in prompt engineering throughout
 - Structured daily itinerary output schema used in `agents/generate_itinerary.py`
 - Budget breakdown table concept used in `agents/hotel_budget.py`
