@@ -5,7 +5,7 @@ and optionally enhanced with Tavily web search and OpenWeatherMap live forecasts
 
 ---
 
-## Example
+## Example / Use Case
 <img width="1071" height="902" alt="Screenshot 2026-05-05 at 4 22 58 AM" src="https://github.com/user-attachments/assets/ccc29738-a643-4259-bab2-f41f8a808780" />
 
 
